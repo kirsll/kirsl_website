@@ -1,0 +1,1205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Russo+One&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #fff;
+  position: relative;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.main{
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+#container {
+  background: url("/main/background.png");
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 0;
+
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  color: #e6e6e6;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 200px;
+  letter-spacing: 40px;
+  margin-top: 230px;
+  display: block;
+  text-shadow: 2px 2px 4px #000;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  position: absolute;
+}
+
+.mks_title{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+  margin-bottom: 120px;
+}
+
+.history_title{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+  margin-bottom: 120px;
+}
+
+.mks-photo{
+  left: 10%;
+  width: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  bottom: 0;
+  top: 300px;
+  z-index: 0;
+}
+
+.history-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+  font-size: 24px;
+}
+
+.left-text{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 5%; */
+  text-align: left;
+  align-items: center;
+  width: 50%;
+  color: #c7c7cd;
+  z-index: 2;
+}
+
+.right-text{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 5%; */
+  text-align: left;
+  align-items: center;
+  width: 50%;
+  color: #c7c7cd;
+}
+
+.hist{
+  width: 48%;
+  margin-bottom: 80px;
+}
+
+.mks {
+  min-height: 100vh;
+  position: relative;
+}
+
+.black-holes{
+  height: auto;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hole_photo{
+  width: 100%;
+  height: auto;
+  filter: brightness(0.3);
+}
+
+.hole_title{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+}
+
+.holes-info{
+  font-size: 56px;
+  letter-spacing: 10px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #c7c7cd;
+  margin-bottom: 230px;
+  position: absolute;
+  font-weight: 600;
+}
+
+.holes-info2{
+  font-size: 24px;
+  letter-spacing: 2px;
+  z-index: 10;
+  line-height: 1;
+  text-align: center;
+  color: #c7c7cd;
+  position: absolute;
+  width: 80%;
+}
+
+.interesting{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.int_title{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+}
+
+.first_row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.finf{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 5%;
+  border-left: solid 5px #3c3c4a;;
+  border-bottom: solid 5px #3c3c4a;;
+}
+
+.finf_title{
+  font-size: 30px;
+  color: #2c2c3b;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.finf_text{
+  font-size: 24px;
+  color: #a1a1c6;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.fimg{
+  height: auto;
+  width: 50%;
+  margin-right: 5%;
+  border-bottom: solid 5px #3c3c4a;;
+}
+
+.second_row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.s_finf{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 5%;
+  border-right: solid 5px #3c3c4a;;
+  border-bottom: solid 5px #3c3c4a;;
+}
+
+.s_finf_title{
+  font-size: 30px;
+  color: #2c2c3b;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.s_finf_text{
+  font-size: 24px;
+  color: #a1a1c6;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.s_fimg{
+  height: auto;
+  width: 50%;
+  margin-left: 5%;
+  border-bottom: solid 5px #3c3c4a;;
+}
+
+.last_row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.l_finf{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 5%;
+  border-left: solid 5px #3c3c4a;;
+}
+
+.l_finf_title{
+  font-size: 30px;
+  color: #71717d;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.l_finf_text{
+  font-size: 24px;
+  color: #a1a1c6;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.l_fimg{
+  height: auto;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.finf_title, .l_finf_title, .s_finf_title {
+  color: #dbdbde;
+  font-weight: 700;
+}
+/* zov */
+
+.prof{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prof_title{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 240px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+  margin-bottom: 40px;
+}
+
+.engineer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.eng_title{
+  font-size: 45px;
+  color: #F0ECEC;
+  border-bottom: solid 5px #3c3c4a;
+  text-align: center;
+}
+
+.eng_blocks_l{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+.eng_blocks_r{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+.left_def{
+  height: 30px;
+  width: 50%;
+  position: relative;
+  border-bottom: solid 5px #3c3c4a;;
+  border-right: solid 5px #3c3c4a;
+}
+
+.right_def{
+  height: 30px;
+  width: 50%;
+  position: relative;
+  border-bottom: solid 5px #3c3c4a;;
+  border-left: solid 5px #3c3c4a;
+}
+
+.eng_text{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texter_block1{
+  width: 50%;
+  border-left: solid 5px #3c3c4a;
+  height: auto;
+  text-align: left;
+}
+
+.texter_block2{
+  border-right: solid 5px #3c3c4a;
+  width: 50%;
+  height: auto;
+  text-align: right;
+}
+
+.left_texter{
+  margin: 10%;
+  color: #a1a1c6;
+}
+
+.right_texter{
+  margin: 10%;
+  color: #a1a1c6;
+}
+
+.cosm{
+  position: absolute;
+  height: auto;
+  width: 35%;
+}
+
+.moonimg{
+  margin-top: 200px;
+}
+
+.thank{
+  font-size: 82px;
+  letter-spacing: 10px;
+  margin-top: 300px;
+  z-index: 10;
+  font-family: 'Russo One', sans-serif;
+  line-height: 1;
+  text-align: center;
+  color: #F0ECEC;
+  margin-bottom: 300px;
+}
+
+.footer{
+  display: flex;
+  margin-top: 50px;
+  opacity: 1;
+  filter: blur(1);
+  filter: brightness(1);
+}
+
+.subtitle {
+  font-size: 30px;
+  color: #e6e6e6;
+  line-height: 1;
+  z-index: 49;
+  margin-top: 420px;
+  position: absolute;
+}
+
+.hero-image {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+  margin-top: 200px;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.section-title {
+  font-size: 128px;
+  margin-bottom: 20px;
+  font-family: "Russo One";
+  letter-spacing: 5px;
+  color: #F0ECEC;
+  line-height: 1;
+}
+
+.planet-menu .ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.planet-menu a {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Oswald";
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #a1a1c6;
+  border-bottom: solid 5px #3c3c4a;
+}
+
+.planet-menu p:hover {
+  background-color: #333;
+}
+
+/* .liner{
+  border-bottom: solid 5px #3c3c4a;
+} */
+
+.planet-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  position: relative;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 100vw; */
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+
+.information{
+  /* position: relative; */
+  text-align: left;
+  width: 50vw;
+  /* height: 50vh; */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 0 0 40px;
+  border-top: solid 5px white;
+  border-left: solid 5px white;
+}
+
+.information h3{
+  font-family: "Russo One";
+  font-size: 96px;
+  letter-spacing: 5px;
+}
+
+.information h4{
+  font-size: 48px;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.imager{
+  /* position: relative; */
+  width: 60vw;
+  height: 60vh;
+  z-index: 10;
+  position: absolute;
+  
+}
+
+/* #imager{
+  position: relative;
+  left: 0;
+  z-index: 10;
+} */
+
+.planet-photo{
+  width: 100%;
+  height: 100%;
+}
+
+.planet-info .Name{
+  font-size: 96px;
+  margin: 0;
+}
+
+.planet-info .info{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  color: #a1a1c6;
+}
+
+.planet-stats {
+  gap: 20px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.atmosphere {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.block{
+  width: 208px; 
+  height: 168px; 
+}
+
+/* .ne-znayu{
+  width: 208px; 
+  height: 168px; 
+  position: relative;
+} */
+
+.visible-block{
+  width: 208px; 
+  height: 168px;
+  background: #1d1d27; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.property{
+  color: #a1a1c6; 
+  font-size: 24px; 
+  font-family: Oswald; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.value{
+  color: rgb(255, 255, 255); 
+  font-size: 32px; 
+  font-family: Oswald; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  position: relative;
+  text-align: center;
+}
+
+/* .consist{
+  width: 208px; 
+  height: 168px; 
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex;
+} */
+
+.consist{
+  width: 208px;
+  height: 168px;
+}
+
+.text-block{
+  padding: 12px;
+}
+.propertier{
+  color: #ffffff; 
+  font-size: 40px; 
+  font-family: "Oswald"; 
+  font-weight: 500; 
+  position: relative;
+  text-align: right;
+  line-height: 40px;
+  margin-top: 24px;
+}
+
+.valuer{
+  position: relative;
+  color: rgb(255, 255, 255); 
+  font-size: 64px; 
+  line-height: 52px;
+  font-family: "Oswald"; 
+  font-weight: 600; 
+}
+
+.percenter{
+  color: #a1a1c6; 
+  font-size: 36px; 
+  line-height: 36px;
+
+  font-family: "Oswald"; 
+  font-weight: 500; 
+  text-align: right;
+}
+
+.value p{
+  position: relative;
+}
+/* звезды */
+
+/* .space-body {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+} */
+
+/* #space {
+  position: relative;
+  width: 100%;
+  height: 400vh;
+  z-index: 0;
+} */
+
+.star {
+  position: absolute;
+  border-radius: 100%;
+  background: white;
+  animation: flick infinite;
+  z-index: 1;
+}
+
+.mks-model{
+  width: 100%;
+  height: 80vh;
+  z-index: 10;
+}
+.mks-model iframe{
+  width: 100%;
+  height: 80vh;
+}
+
+@keyframes flick {
+  0% {
+      opacity: 0.2;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0.2;
+  }
+}
+.mks-bg {
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  z-index:0;
+}
+
+/* .sketchfab-embed-wrapper {
+  background: url('/main/Earth.png') no-repeat;
+  background-size: 90vh 90vh;
+} */
+
+.whatIsIt{
+  opacity: 0.6;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border-left: solid 10px #2c2c3a;
+  border-right: solid 10px #2c2c3a;
+  padding: 0 5px ;
+}
+
+
+@media (max-width: 1440px) {
+  .title{
+    font-size: 160px;
+    margin-top: 160px;
+  }
+  .subtitle{
+    margin-top: 320px;
+    font-size: 24px;
+  }
+  .planet-menu .ul{
+
+    flex-wrap: wrap;
+  }
+  
+}
+
+
+@media (max-width: 1024px) {
+  .planet-menu .ul{
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .whatIsIt{
+    margin-top: 100px;
+  }
+  .content{
+    margin-top: 100px;
+  }
+  .mks_title{
+    font-size: 62px;
+    margin-top: 150px;
+  }
+  .mks-photo{
+    top: 400px;
+  }
+  .history_title{
+    font-size: 62px;
+    margin-top: 150px;
+  }
+  .hist{
+    font-size: 14px;
+  }
+  .hole_title{
+    margin-top: 200px;
+    font-size: 62px;
+  }
+  .holes-info{
+    font-size: 36px;
+  }
+  .holes-info2{
+    font-size: 18px;
+  }
+  .int_title{
+    font-size: 62px;
+    margin-bottom: 80px;
+    margin-top: 150px;
+  }
+  .finf_title{
+    font-size: 24px;
+  }
+  .finf_text{
+    font-size: 20px;
+  }
+  .s_finf_title{
+    font-size: 24px;
+  }
+  .s_finf_text{
+    font-size: 20px;
+  }
+  .l_finf_title{
+    font-size: 24px;
+  }
+  .l_finf_text{
+    font-size: 20px;
+  }
+  .prof_title{
+    margin-top: 150px;
+    font-size: 62px;
+  }
+  .eng_title{
+    font-size: 32px;
+  }
+  .left_texter{
+    font-size: 16px;
+  }
+  .right_texter{
+    font-size: 16px;
+  }
+  .moonimg{
+    margin-top: 60px;
+  }
+  .thank{
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title{
+    font-size: 96px;
+    margin-top: 115px;
+  }
+  .subtitle{
+    font-size: 20px;
+    margin-top: 230px;
+  }
+  .whatIsIt{
+    font-size: 28px;
+  }
+  .section-title{
+    font-size: 96px;
+  }
+  .ul{
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .planet-info .info{
+    margin-top: 680px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 28px;
+  }
+  .information{
+    border: 0;
+    width: 100%;
+    padding: 0;
+  } 
+  .Name{
+    width: 100%;
+    text-align: center;
+  }
+  .planet-stats{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .information h4{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 56px;
+  }
+
+  .consist{
+    width: 334px;
+    height: 160px;
+  }
+  .visible-block{
+    width: 334px;
+    height: 160px;
+  }
+  .atmosphere{
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .property{
+    font-size: 32px;
+  }
+  .value{
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .valuer{
+    font-size: 72px;
+  }
+  .propertier{
+    margin-top: 0;
+  }
+  .text-block{
+    padding: 20px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .block{
+    width: 344px;
+  }
+
+  .history_title{
+    font-size: 48px;
+  }
+  .hist{
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .mks-photo{
+    margin-top: 500px;
+    left: 8%;
+  }
+
+  .finf_title, .s_finf_title, .l_finf_title{
+    font-size: 20px;
+  }
+  .s_finf_text, .l_finf_text, .finf_text{
+    font-size: 14px;
+    margin-right: 0;
+  }
+
+  .eng_title{
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .texter_block1{
+    border: 0;
+    width: 80%;
+  }
+  .texter_block2{
+    border: 0;
+    width: 80%;
+  }
+  .left_texter{
+    margin-right: 0;
+    font-size: 14px;
+  }
+  .right_texter{
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .moonimg{
+    margin-top: 0;
+  }
+  .thank{
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+
+
+
+  /* .nav-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  } */
+}
+@media(max-width: 700px){
+  .holes-info2{
+    font-size: 16px;
+  }
+  .holes-info{
+    margin-bottom: 210px;
+  }
+}
+
+@media(max-width: 6150px){
+  .holes-info{
+    margin-bottom: 230px;
+  }
+}
+
+@media(max-width: 600px){
+  .cosm{
+    top: 15vh;
+  }
+}
+@media(max-width: 500px){
+  .cosm{
+    top: 17vh;
+  }
+  .holes-info2{
+    font-size: 15px;
+    width: 90%;
+  }
+  .holes-info{
+    margin-bottom: 250px;
+  }
+  .hole_title{
+    margin-bottom: 150px;
+    font-size: 48px;
+  }
+  .int_title{
+    font-size: 48px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px;
+  }
+  .title {
+      font-size: 64px;
+      letter-spacing: 0;
+      text-align: center;
+      margin-top: 50px;
+
+  }
+  .subtitle{
+    margin-top: 120px;
+    font-size: 14px;
+  }
+
+  .whatIsIt{
+    font-size: 16px;
+  }
+  .planet-stats{
+    margin-bottom: 300px;
+  }
+  .content{
+    margin-top: 30px;
+    max-width: 480px;
+  }
+  .section-title{
+    font-size: 32px;
+  }
+  .planet-menu .ul{
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .planet-menu a{
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .planet-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .planet-info .Name{
+    font-size: 32px;
+  }
+  .planet-info .info{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+  .information{
+    padding: 0;
+    width: 100%;
+    border-left: 0;
+    border-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .visible-block{
+    width: 104px;
+    height: 84px;
+  }
+  .block{
+    width: 104px;
+    height: 84px;
+  }
+  .value{
+    font-size: 16px;
+  }
+  .property{
+    font-size: 12px;
+  }
+  body {
+      font-size: 13px;
+  }
+  .imager {
+    width: 100vw;
+    height: 100vw;
+  }
+  .valuer{
+    font-size: 64px;
+  }
+  .propertier{
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 1;
+  }
+  .percenter{
+    font-size: 14px;
+    line-height: 1;
+  }
+  /* .text-block{
+
+  } */
+}
+
+@media( max-width: 375px){
+  .text-block{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .planet-info h4{
+    margin-top: 50px;
+    font-size: 48px;
+  }
+  .planet-stats{
+    margin-bottom: 0;
+    align-items: center;
+  }
+  .atmosphere{
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 400px;
+  }
+  .consist{
+    width: 134px;
+    height: 100px;
+  }
+  .visible-block{
+    height: 100px;
+    width: 134px;
+  }
+  .text-block{
+    height: 100px;
+    padding: 5%;
+  }
+  .block{
+    width: 134px;
+    height: 100px;
+  }
+  .content{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .valuer{
+    font-size: 46px;
+  }
+  .propertier{
+    font-size: 18px;
+  }
+  .percenter{
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .mks_title{
+    font-size: 20px;
+    margin: 0;
+  }
+  .history_title{
+    font-size: 24px;
+  }
+  .mks-model{
+    height: 50vh;
+  }
+  .history_title{
+    margin-top: 350px;
+  }
+}

@@ -1,0 +1,22 @@
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: .
+      dockerfile: ./spacez/Dockerfile
+    volumes:
+      - node_modules:/app/frontend/node_modules
+
+    ports:
+      - 3000:3000
+
+  nginx:
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    ports:
+      - 80:80
+
+volumes:
+  node_modules:
