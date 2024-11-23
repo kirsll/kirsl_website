@@ -577,11 +577,22 @@ export default function Home() {
                 <div className="pre-footer"></div>
                 <img src="/main/footer.gif" alt="footer"/>
                 <div className="sources">
-                    <p className="linker"></p>
-                    <p className="linker"></p>
-                    <p className="linker"></p>
-                    <p className="linker"></p>
-                    <p className="linker"></p>
+                    <p className="linker_title">Ссылки на ресурсы, картинки и т.д.</p>
+                    <div className="linker_box">
+                        <div className="linker">https://pin.it/5fzfEFC45</div>
+                        <div className="linker">https://pin.it/7cyJ6QHbG</div>
+                        <div className="linker">https://pin.it/7pFbLEImS</div>
+                        <div className="linker">https://pin.it/2NhH0Fizh</div>
+                        <div className="linker">https://pin.it/6lTOqvHmN</div>
+                        <div className="linker">https://pin.it/2yCdyP7gB</div>
+                        <div className="linker">https://pin.it/21EfouVxu</div>
+                        <div className="linker">https://pin.it/Wnu2n7wQk</div>
+                        <div className="linker">https://pin.it/7fzvh9f9g</div>
+                        <div className="linker">https://pin.it/2lCFABaCK</div>
+                        <div className="linker">https://pin.it/7AsLkQvCO</div>
+                        <div className="linker">https://pin.it/4o6xBe09z</div>
+                        <div className="linker">https://pin.it/7jM5zyjoa</div>
+                    </div>
                 </div>
             </section>
         </div>
