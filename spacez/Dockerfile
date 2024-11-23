@@ -1,9 +1,9 @@
-FROM node:latest
+FROM node:23-alpine
 
 
 WORKDIR /app/frontend
 
-COPY ./spacez .
+COPY . .
 
 RUN npm install
 

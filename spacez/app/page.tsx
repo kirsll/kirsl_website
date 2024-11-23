@@ -576,6 +576,13 @@ export default function Home() {
             <section className="footer">
                 <div className="pre-footer"></div>
                 <img src="/main/footer.gif" alt="footer"/>
+                <div className="sources">
+                    <p className="linker"></p>
+                    <p className="linker"></p>
+                    <p className="linker"></p>
+                    <p className="linker"></p>
+                    <p className="linker"></p>
+                </div>
             </section>
         </div>
     </div>
