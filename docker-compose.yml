@@ -6,6 +6,7 @@ services:
       dockerfile: ./Dockerfile
     volumes:
       - node_modules:/app/frontend/node_modules
+      - logs:/root/.npm/_logs
     ports:
       - 3000:3000
 
@@ -19,3 +20,4 @@ services:
 
 volumes:
   node_modules:
+  logs:
